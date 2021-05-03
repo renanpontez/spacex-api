@@ -1,5 +1,5 @@
 {
-  "name": "simple-express",
+  "name": "spacex-nextlaunch-backend",
   "version": "1.0.0",
   "description": "express server with babel installed",
   "main": "index.js",

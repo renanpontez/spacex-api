@@ -1,20 +1,23 @@
-# Express + Babel Server
+# SpaceX - Next Launch - API
 
-## How to use?
-* npm install
-* Make sure to edit the package.json if there is a particular library or version you want to work with
-* run `npm start` to start the dev server with nodemon
-* if you are ready for production just: `npm run build` and `npm run serve` the files will be available in the dist folder
+This app is a simple integration with a custom-simple API that brings SpaceX's reports about their missions.
 
-### Receiving updates from upstream
-Just fetch the changes and merge them into your project with git.
+## Description
 
-## App Structure
-The Server:
-- Express+Babel
+This simple API returns SpaceX's missions data as JSON. The only route existing perform four fetches and join together to return to frontend as simple as possible. Ps: If the app grows its recommended to separate in four independent routes.
 
-## Contact
-Hit me up here on github
+## Usage
 
-## License
-MIT
+- `npm install`
+
+#### DEV
+
+- run `npm start` to start the dev server with nodemon
+
+#### PRODUCTION
+
+- `npm run build` and `npm run serve` the files will be available in the dist folder
+
+#### Copyright
+
+I used a simple boilerplate to start coding: `https://github.com/latifs/simple-express`
